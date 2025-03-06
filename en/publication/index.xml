@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Публикации | My Site</title>
+    <link>https://jaksy-gamal.github.io/en/publication/</link>
+      <atom:link href="https://jaksy-gamal.github.io/en/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Публикации</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jaksy-gamal.github.io/media/icon_hu_645fa481986063ef.png</url>
+      <title>Публикации</title>
+      <link>https://jaksy-gamal.github.io/en/publication/</link>
+    </image>
+    
+    <item>
+      <title>Управление версиями. Git.</title>
+      <link>https://jaksy-gamal.github.io/en/publication/01/</link>
+      <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://jaksy-gamal.github.io/en/publication/01/</guid>
+      <description>&lt;h2 id=&#34;управление-версиями-git&#34;&gt;Управление версиями. Git.&lt;/h2&gt;
+&lt;p&gt;Git — это система контроля версий, которая позволяет отслеживать изменения в коде, работать в команде и безопасно вносить правки в проекты. Основные моменты:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Репозиторий&lt;/strong&gt; — хранилище проекта с полной историей изменений.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Коммиты&lt;/strong&gt; — зафиксированные изменения в коде с комментариями.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ветки&lt;/strong&gt; — параллельные версии проекта, позволяющие разрабатывать новые функции без риска сломать основную ветку (&lt;code&gt;main&lt;/code&gt; / &lt;code&gt;master&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Слияние (merge)&lt;/strong&gt; — объединение изменений из одной ветки в другую.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rebase&lt;/strong&gt; — перезапись истории коммитов для более чистой и логичной структуры.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cherry-pick&lt;/strong&gt; — выборочное применение коммитов.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Основные команды:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init         &lt;span class=&#34;c1&#34;&gt;# Создание нового репозитория&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone URL    &lt;span class=&#34;c1&#34;&gt;# Клонирование удаленного репозитория&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .        &lt;span class=&#34;c1&#34;&gt;# Добавление всех изменений в индекс&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Описание изменений&amp;#34;&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# Фиксация изменений&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push         &lt;span class=&#34;c1&#34;&gt;# Отправка изменений в удаленный репозиторий&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git pull         &lt;span class=&#34;c1&#34;&gt;# Получение последних изменений&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git branch       &lt;span class=&#34;c1&#34;&gt;# Просмотр списка веток&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git checkout -b новая_ветка  &lt;span class=&#34;c1&#34;&gt;# Создание и переключение на новую ветку&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git merge ветка  &lt;span class=&#34;c1&#34;&gt;# Слияние ветки в текущую&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git rebase main  &lt;span class=&#34;c1&#34;&gt;# Перенос коммитов поверх новой версии ветки&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git log --oneline --graph  &lt;span class=&#34;c1&#34;&gt;# Просмотр истории коммитов в компактном виде&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Git — мощный инструмент, который помогает организовать работу над проектом, сохранять историю изменений и эффективно работать в команде. Освоение его возможностей — важный шаг для любого разработчика!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
