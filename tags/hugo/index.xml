@@ -5,7 +5,7 @@
     <link>https://jaksy-gamal.github.io/tags/hugo/</link>
       <atom:link href="https://jaksy-gamal.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <description>Hugo</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>ru-ru</language><lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jaksy-gamal.github.io/media/icon_hu_645fa481986063ef.png</url>
       <title>Hugo</title>
@@ -13,27 +13,49 @@
     </image>
     
     <item>
-      <title>Pandas</title>
-      <link>https://jaksy-gamal.github.io/project/pandas/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaksy-gamal.github.io/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>PyTorch</title>
-      <link>https://jaksy-gamal.github.io/project/pytorch/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaksy-gamal.github.io/project/pytorch/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>scikit-learn</title>
-      <link>https://jaksy-gamal.github.io/project/scikit/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://jaksy-gamal.github.io/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
+      <title>Создание сайта научного работника на основе Hugo Academic</title>
+      <link>https://jaksy-gamal.github.io/project/hugo/</link>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://jaksy-gamal.github.io/project/hugo/</guid>
+      <description>&lt;h1 id=&#34;создание-сайта-научного-работника-на-основе-hugo-academic&#34;&gt;Создание сайта научного работника на основе Hugo Academic&lt;/h1&gt;
+&lt;p&gt;Hugo Academic – это мощный и гибкий шаблон для &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo&lt;/a&gt;, позволяющий создать современный и функциональный сайт для научных работников. В этой статье мы рассмотрим, какие преимущества даёт использование данного шаблона и как можно адаптировать его для представления научной деятельности.&lt;/p&gt;
+&lt;h2 id=&#34;преимущества-hugo-academic&#34;&gt;Преимущества Hugo Academic&lt;/h2&gt;
+&lt;p&gt;Hugo Academic сочетает в себе скорость, удобство и современный дизайн. Некоторые ключевые преимущества:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Быстрая сборка и публикация&lt;/strong&gt;: Hugo известен своей скоростью генерации статических сайтов, что позволяет обновлять информацию мгновенно.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Адаптивный дизайн&lt;/strong&gt;: Шаблон оптимизирован для просмотра на различных устройствах, будь то десктоп или мобильное устройство.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Многофункциональность&lt;/strong&gt;: В шаблоне предусмотрены разделы для публикаций, проектов, блога и контактной информации.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Лёгкость настройки&lt;/strong&gt;: Интуитивно понятная структура шаблона позволяет легко адаптировать его под индивидуальные потребности.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;структура-сайта&#34;&gt;Структура сайта&lt;/h2&gt;
+&lt;p&gt;При использовании Hugo Academic сайт обычно состоит из нескольких основных разделов:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Главная страница&lt;/strong&gt;: Содержит краткую информацию о научном работнике, его интересах и актуальных новостях.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Публикации&lt;/strong&gt;: Раздел, в котором можно оформить список научных публикаций, их аннотации и ссылки на полные тексты.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Проекты&lt;/strong&gt;: Представление исследовательских проектов с описанием целей, задач и результатов.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Блог&lt;/strong&gt;: Место для публикации статей, новостей и аналитических материалов.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Контакты&lt;/strong&gt;: Страница для связи с автором сайта, с указанием электронной почты, социальных сетей и других способов связи.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;варианты-оформления-и-настройки&#34;&gt;Варианты оформления и настройки&lt;/h2&gt;
+&lt;p&gt;Используя Hugo Academic, можно легко изменить внешний вид сайта, выбрав подходящую цветовую схему и настроив элементы интерфейса. Для научного работника важно подчеркнуть профессионализм и академическую строгость, поэтому стоит обратить внимание на следующие моменты:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Минимализм и функциональность&lt;/strong&gt;: Простые и чистые линии, отсутствие лишних элементов, акцент на контент.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Удобная навигация&lt;/strong&gt;: Интуитивно понятное меню и структурированное представление информации.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Интеграция с внешними сервисами&lt;/strong&gt;: Возможность подключения систем для цитирования, ссылки на ORCID и Google Scholar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;процесс-адаптации-шаблона&#34;&gt;Процесс адаптации шаблона&lt;/h2&gt;
+&lt;p&gt;Для создания индивидуального сайта можно следовать нескольким этапам:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Установка и настройка Hugo&lt;/strong&gt;: Необходимо скачать и установить Hugo, ознакомиться с его документацией и подготовить рабочее окружение.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Выбор темы&lt;/strong&gt;: Найти шаблон Hugo Academic и склонировать его репозиторий в рабочую директорию.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Настройка конфигурационных файлов&lt;/strong&gt;: Изменить параметры конфигурации в соответствии с личными данными, предпочитаемой структурой сайта и нужными разделами.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Адаптация контента&lt;/strong&gt;: Добавить публикации, описания проектов и личные данные, уделяя внимание структурированию информации.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Публикация сайта&lt;/strong&gt;: После завершения работы сайт можно загрузить на сервер или использовать статические хостинги для его размещения.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;Создание сайта научного работника на базе Hugo Academic – это эффективное решение для тех, кто ценит скорость, простоту настройки и современный дизайн. Правильно оформленный сайт помогает не только структурировать научную информацию, но и повысить видимость исследований в глобальном информационном пространстве. Используя все преимущества данного шаблона, можно создать уникальную платформу, которая будет представлять научную деятельность на высоком уровне.&lt;/p&gt;
+&lt;p&gt;Данный подход позволяет интегрировать современные веб-технологии с традиционными принципами академической работы, обеспечивая профессиональный и функциональный ресурс для научного сообщества.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
